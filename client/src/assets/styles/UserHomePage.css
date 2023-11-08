@@ -1,0 +1,52 @@
+body {
+    background-color: #3C6C91;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+    height: 10%;
+    background-color: rgb(199, 196, 196);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;  /* Aligns items to the right */
+    padding-right: 20px;  /* Adds some padding on the right */
+}
+
+.navigation-link {
+    text-decoration: none;
+    color: #000000;
+    font-weight: normal;
+    font-size: 16px;
+    padding-right: 1%;
+}
+
+.header {
+    width: 100%;
+    height: 10%;
+    background-color: rgb(199, 196, 196);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.footer {
+    width: 100%;
+    height: 10%;
+    background-color: rgb(199, 196, 196);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.public-schedule-link {
+    color: white;
+    text-align: center;
+}
